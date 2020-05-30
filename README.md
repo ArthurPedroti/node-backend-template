@@ -56,6 +56,12 @@ To use this template you will need to configure the files bellow:
 - ormconfig.json
 - .env
 
+It also has an insomnia file with the api docs to test all the login features, only need to reconfigure the "Response => Body Attribute" with the Request route.
+
+Utils:
+Generating the app_secret: http://www.md5.cz/ (type some random text and generate a hash)
+AWS credentials: Take it creating a new user on Amazon
+
 ## :computer: Languages
 
 - **#TypeScript**

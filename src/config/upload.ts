@@ -43,7 +43,7 @@ export default {
   config: {
     disk: {},
     aws: {
-      bucket: 'atp-app-gobarber',
+      bucket: process.env.BUCKET_NAME,
     },
   },
 } as IUploadConfig;
